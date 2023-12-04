@@ -1,2 +1,0 @@
-# DIagnoses-Treatment_Chatbot
- 
