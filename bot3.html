@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physio Therapist</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navigation Tab -->
+    <nav class="navigation3">
+      <div class="nav-left">
+        <div class="nav-logo">
+            <img src="Chatbot_Logo2.png" alt="Logo">
+        </div>
+          <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/bot1.html">Diagnosis Bot</a></li>
+              <li><a href="/bot2.html">Treatment Bot</a></li>
+          </ul>
+      </div>
+      <div class="titleBot">
+        <h1>Physio Therapist Bot</h1>
+      </div>
+
+      <div class="nav-right">
+          <button id="reset-chat" onclick="resetChat()"><b>&#8634;</b></button>
+      </div>
+    </nav>
+
+    <!-- Full-Screen Chat Container -->
+    <div class="assistant-container" id="assistant-container">
+        <div id="chat-container">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div id="user-input">
+            <input type="text" id="message" placeholder="Type a message..." />
+            <button onclick="sendMessage(3)">Send</button>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
